@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cantante</title>
+</head>  
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  var cantante = {
+    "Nombres": "Ramón Luis",
+    "Apellidos": "Ayala Rodríguez",
+    "Conocido_artísticamente": "Daddy Yankee",
+    "Fecha_nacimiento": "03/02/1977",
+    "Edad": 46,
+    "Pais_nacimiento": "Puerto Rico",
+    "Ciudad": "San Juan",
+    "Ocupaciones": "Cantante, Productor, Compositor",
+    "Grupo_sanguineo": "N/A",
+    "Cónyuge": "Mireddys González",
+    "Hijos": "Yamilet Ayala González, Jesaaelys Ayala González, Jeremy Ayala González",
+    "Nacionalidad": "Estadounidense"
+  };
+  
+  var Nombres = cantante.Nombres;
+  var Apellidos = cantante.Apellidos;
+  var Conocido_artísticamente  = cantante.Conocido_artísticamente;
+  var Fecha_nacimiento = cantante.Fecha_nacimiento;
+  var Edad = cantante.Edad;
+  var Pais_nacimiento = cantante.Pais_nacimiento;
+  var Ciudad = cantante.Ciudad;
+  var Ocupaciones = cantante.Ocupaciones;
+  var Grupo_sanguineo = cantante.Grupo_sanguineo;
+  var Cónyuge = cantante.Cónyuge;
+  var Hijos = cantante.Hijos;
+  var Nacionalidad = cantante.Nacionalidad;
+  
+  document.getElementById("Nombres").innerHTML = Nombres;
+  document.getElementById("Apellidos").innerHTML = Apellidos;
+  document.getElementById("Conocido_artísticamente").innerHTML = Conocido_artísticamente;
+  document.getElementById("Fecha_nacimiento").innerHTML = Fecha_nacimiento;
+  document.getElementById("Edad").innerHTML = Edad;
+  document.getElementById("Pais_nacimiento").innerHTML = Pais_nacimiento;
+  document.getElementById("Ciudad").innerHTML = Ciudad;
+  document.getElementById("Ocupaciones").innerHTML = Ocupaciones;
+  document.getElementById("Grupo_sanguineo").innerHTML = Grupo_sanguineo;
+  document.getElementById("Cónyuge").innerHTML = Cónyuge;
+  document.getElementById("Hijos").innerHTML = Hijos;
+  document.getElementById("Nacionalidad").innerHTML = Nacionalidad;
+});
+</script>
+</head>
+<body>
+
+<h2>Información del Cantante:</h2>
+<p>Nombres: <span id="Nombres"></span></p>
+<p>Apellidos: <span id="Apellidos"></span></p>
+<p>Conocido artísticamente: <span id="Conocido_artísticamente"></span></p>
+<p>Fecha de Nacimiento: <span id="Fecha_nacimiento"></span></p>
+<p>Edad: <span id="Edad"></span></p>
+<p>País de Nacimiento: <span id="Pais_nacimiento"></span></p>
+<p>Ciudad: <span id="Ciudad"></span></p>
+<p>Ocupaciones: <span id="Ocupaciones"></span></p>
+<p>Grupo Sanguíneo: <span id="Grupo_sanguineo"></span></p>
+<p>Cónyuge: <span id="Cónyuge"></span></p>
+<p>Hijos: <span id="Hijos"></span></p>
+<p>Nacionalidad: <span id="Nacionalidad"></span></p>
+</body>
+</html>
